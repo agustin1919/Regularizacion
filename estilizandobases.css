@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+:root{
+	--color-primary: #444CF7;
+	--color-title: #000;
+	--align-title: left;
+	--padding-container: 100px 0px;
+	--width-container: 90%;
+	--max-width-container: 1200px;
+	--color-btn:#444CF7;
+	--text-btn: #fff;
+	--padding-btn: 15px 30px;
+}
+body {
+	font-family: 'Inter', sans-serif;
+	background-color: #e5e5f7;
+	opacity: 1;
+	background-image:  radial-gradient(#444cf7 2px, transparent 2px), radial-gradient(#444cf7 2px, #7f8fa6 2px);
+	background-size: 120px 120px;
+	background-position: 0 0,80px 80px;
+}
+.container{
+	width: var(--width-container);
+	max-width: var(--max-width-container);
+	padding: var(--padding-container);
+	margin:0 auto;
+	overflow: hidden;
+}
+header {
+	height: 100vh;
+	min-height: 500px;
+	position: relative;
+	--padding-container:0;
+}
+header div{
+	display: grid;
+	height: 100%;
+	grid-template-columns: 3fr 2fr;
+	place-items:center;
+	gap:20px;
+}
+img {
+	height: 600px
+}
+header div h1 {
+margin-top: 150px;
+margin-left: -100px
+}
+header div p {
+	margin-top: -350px;
+	margin-left: -265px
+}
+header div img {
+	margin-top: -200px;
+	margin-right: 300px;
+}
+.hero__title {
+	font-size: 3rem;
+}
+.hero__copy {
+	font-size: 1.2rem;
+}
+header div nav ul li a {
+	text-decoration: none;
+	display: inline-block;
+	background: var(--color-btn);
+	color:#fff;
+	padding: var(--padding-btn);
+	text-align: center;
+}
+li {
+	list-style: none;
+	position: relative;
+	top: -350px;
+	left: -175px;
+}
+.cta {
+	position: relative;
+	margin: 10px	
+}
+
+
+.tremendo{
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+	background: var(--color-btn);
+	color:#fff;
+	padding: var(--padding-btn);
+	text-align: center;
+	top: -187px;
+	left: 350px;
+
+}
+
+* {
+	position: relative;
+	top: -10px
+}
