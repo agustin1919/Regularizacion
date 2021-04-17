@@ -90,3 +90,69 @@ li {
 	left: 75px;
 }
 
+
+/*--------------------------------------------------Responsive-----------------------------------------------*/
+
+@media only screen and (max-width: 800px) {
+	.hero__title {
+		position: absolute;
+		font-size: 1rem;
+		left: 70px;
+		margin: auto;
+	}
+	.hero__copy {
+		font-size: .8rem;
+		position: absolute;
+		left: 150px;
+		top: 350px;
+
+	}
+	img {
+		position: absolute;
+		width: 200px;
+		left: 0;
+		right: 0;
+		margin: auto;
+		top: 30px
+
+	}
+	div {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	header {
+		display: flex;
+		flex-direction: column;
+	}
+
+	li {
+		position: relative;
+		display: block;
+		margin: 5px;
+		width: 100%;
+		top: 180px;
+		left:-20px;
+
+
+	}
+
+	.tremendo {
+		width: 300px;
+		top: -10px;
+		left:70px;
+
+
+	}
+
+	header div nav ul li a {
+	text-decoration: none;
+	display: inline-block;
+	background: var(--color-btn);
+	color:#fff;
+	padding: 10px 25px;
+	text-align: center;
+	width: 300px
+		
+}
+
