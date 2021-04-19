@@ -50,12 +50,12 @@ img {
 header div h1 {
 	position: relative;
 	top: 75px;
-	left: -75px;
+	left: -45px;
 }
 header div p {
 	position: relative;
 	top: -100px;
-	left:-266px;
+	left:-240px;
 }
 .hero__title {
 	font-size: 2rem;
@@ -87,23 +87,156 @@ li {
 	padding: var(--padding-btn);
 	text-align: center;
 	top: -225px;
-	left: 75px;
+	left: 59px;
 }
 
 
 /*--------------------------------------------------Responsive-----------------------------------------------*/
+@media only screen and (max-width: 1200px) {
+	.hero__title {
+ 		left: -50px
+ 	}
+ 	.hero__copy{
+ 		left: -240px
+	 }
+	 li{
+	 	left: -90px
+	 }
+}
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 992px) {
+	.hero__title {
+		position: absolute;
+		font-size: 2rem;
+		left: 70px;
+		margin: auto;
+		top: 100px
+	}
+	.hero__copy {
+		font-size: 1.2rem;
+		position: absolute;
+		left: 75px;
+		top: 190px;
+
+	}
+	img {
+		position: absolute;
+		width: 300px;
+		left: 0;
+		right: -250px;
+		margin: auto;
+		top: 100px
+
+	}
+	div {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	header {
+		display: flex;
+		flex-direction: column;
+	}
+
+	li {
+		position: relative;
+		display: block;
+		margin: 5px;
+		width: 100%;
+		top: 0px;
+		left:-650px;
+
+
+	}
+
+	.tremendo {
+		width: 300px;
+		top: -225px;
+		left:79px;
+	}
+
+	header div nav ul li a {
+	text-decoration: none;
+	display: inline-block;
+	background: var(--color-btn);
+	color:#fff;
+	padding: var(--padding-btn);
+	text-align: center;
+	width: 150px
+}
+	}
+}
+@media only screen and (max-width: 778px) {
+	.hero__title {
+		position: absolute;
+		font-size: 1.5rem;
+		left: 70px;
+		margin: auto;
+		top: 100px
+	}
+	.hero__copy {
+		font-size: 1.2rem;
+		position: absolute;
+		left: 75px;
+		top: 190px;
+
+	}
+	img {
+		position: absolute;
+		width: 300px;
+		left: 0;
+		right: -250px;
+		margin: auto;
+		top: 100px
+
+	}
+	div {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	header {
+		display: flex;
+		flex-direction: column;
+	}
+
+	li {
+		position: relative;
+		display: block;
+		margin: 5px;
+		width: 100%;
+		top: 0px;
+		left:-480px;
+	}
+
+	.tremendo {
+		width: 300px;
+		top: -225px;
+		left:79px;
+	}
+
+	header div nav ul li a {
+	text-decoration: none;
+	display: inline-block;
+	background: var(--color-btn);
+	color:#fff;
+	padding: 10px 25px;
+	text-align: center;
+	width: 150px
+	}
+}
+
+@media only screen and (max-width: 575px) {
 	.hero__title {
 		position: absolute;
 		font-size: 1.1rem;
-		left: 70px;
+		left: 125px;
 		margin: auto;
 	}
 	.hero__copy {
 		font-size: .8rem;
 		position: absolute;
-		left: 150px;
+		left: 225px;
 		top: 370px;
 
 	}
@@ -132,7 +265,7 @@ li {
 		margin: 5px;
 		width: 100%;
 		top: 180px;
-		left:-20px;
+		left:-90px;
 
 
 	}
@@ -140,9 +273,7 @@ li {
 	.tremendo {
 		width: 300px;
 		top: -60px;
-		left:70px;
-
-
+		left:150px;
 	}
 
 	header div nav ul li a {
@@ -153,6 +284,20 @@ li {
 	padding: 10px 25px;
 	text-align: center;
 	width: 300px
-		
+	}
 }
 
+@media only screen and (max-width: 400px) {
+	.hero__title {
+		left: 40px
+	}
+	.hero__copy{
+		left: 135px
+	}
+	li {
+		left: -25px
+	}
+	.tremendo{
+		left: 60px
+	}
+}
